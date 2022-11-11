@@ -1,0 +1,12 @@
+database name:saviour
+create table userregister(
+    username varchar(255),password varchar(255));
+
+
+
+SELECT * FROM `userregister` WHERE 1
+
+INSERT INTO `userregister`(`username`, `password`) VALUES ('[value-1]','[value-2]')
+
+
+SELECT * FROM `userregister`
